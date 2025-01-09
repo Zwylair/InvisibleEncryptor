@@ -51,7 +51,7 @@ public class Main {
     }
 
     private static void printUsage() {
-        System.out.println("Usage: java Main <action> <file_path>");
+        System.out.println("Usage: java -jar InvisibleEncryptor.jar <action> <file_path>");
         System.out.println("<action>: encode or decode");
         System.out.println("<file_path>: Path to the file to encode or decode");
     }
